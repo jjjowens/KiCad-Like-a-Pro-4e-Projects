@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "02ecdf0d-995f-4a8f-a16e-0324e66acfc4")
+	(uuid "278006ec-46b2-4bd9-9b18-6e779dae2ee3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -960,7 +960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c2f591-2478-4869-b7a0-4de3602a697d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 95.885 34.29 0)
 			(effects
 				(font
@@ -1018,7 +1018,7 @@
 		(instances
 			(project "MCU Data Logger"
 				(path "/9e6b6f4b-c9cd-4b00-ba0a-ee2ed324f710/69ef4e9c-8fa8-4a08-a09c-5eb67d38f86d"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1034,7 +1034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92a3a253-ecb0-489f-8f07-a6badbe0cbb3")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 65.405 60.96 0)
 			(effects
 				(font
@@ -1107,7 +1107,7 @@
 		(instances
 			(project ""
 				(path "/9e6b6f4b-c9cd-4b00-ba0a-ee2ed324f710/69ef4e9c-8fa8-4a08-a09c-5eb67d38f86d"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
