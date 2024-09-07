@@ -1,3 +1,6 @@
+#Project specific ignores
+Prj X - Blinking LED on Breadboard
+
 #KiCad specific ignore rules
 *.kicad_prl
 *-cache.lib
