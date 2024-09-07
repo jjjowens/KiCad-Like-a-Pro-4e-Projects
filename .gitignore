@@ -1,0 +1,83 @@
+#KiCad specific ignore rules
+*.kicad_prl
+*-cache.lib
+fp-info-cache
+*.sch-bak
+*~.save
+*.pro.user
+*.000
+*.tmp
+
+#Gerber files
+*[gG]erber*
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+#Backup files
+*.bck
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*~
+*.sch-bak
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Exported BOM files
+*.xml
+*.csv
+
+#Zip Archives
+*.zip
+
+#Autosave files
+_autosave-*
+*-save.kicad_pcb
+*-save.pro
+
+#MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#Icon must end with two \r 
+Icon
+#Thumbnails
+._*
+
+#Files that might appear on external disks
+.Spotlight-V100
+.DocumentRevisions-V100
+
+#Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+#Windows thumbnail cache files
+Thumbs.db 
+ehthumbs.db
+
+#Folder config files 
+Desktop.ini
+
+#Recycle Bin 
+$RECYCLE.BIN/
+
+#Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+#Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
