@@ -44,7 +44,7 @@ _autosave-*
 *-save.kicad_pcb
 *-save.pro
 *~_autosave-*
-##auto-saved_files##
+\#auto_saved_files\#
 
 #MacOS system files
 .DS_Store
