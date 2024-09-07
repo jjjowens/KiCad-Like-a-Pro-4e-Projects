@@ -3518,7 +3518,7 @@
 		)
 		(uuid 7ad05ab9-b491-47d1-b5d0-dba7a397cbc4)
 	)
-	(text "These connectors are flipped vertically\nso that pin numbers correspond correctly\nacrooss all headers"
+	(text "These connectors are flipped vertically\nso that pin numbers correspond correctly\nacrooss all headers. BLIP!"
 		(exclude_from_sim no)
 		(at 161.29 154.94 0)
 		(effects
