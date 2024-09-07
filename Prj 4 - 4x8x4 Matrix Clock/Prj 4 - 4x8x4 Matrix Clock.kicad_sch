@@ -4844,7 +4844,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "35b85575-31fd-46b9-aea9-63473d771168")
 		(property "Reference" "#PWR08"
 			(at 207.01 144.78 0)
@@ -4856,7 +4855,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 207.01 135.89 0)
+			(at 209.55 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
