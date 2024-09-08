@@ -486,7 +486,7 @@
         "pattern": "/SCL|/SDA"
       },
       {
-        "netclass": "Default",
+        "netclass": "SPI",
         "pattern": "/MISO|/MOSI|/SCK"
       }
     ]
