@@ -2767,6 +2767,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2635a9ab-e465-4bc3-b2a9-762fb31dccb5")
+	)
+	(wire
+		(pts
 			(xy 264.16 85.09) (xy 265.43 85.09)
 		)
 		(stroke
@@ -3297,13 +3307,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 54.61) (xy 125.73 54.61)
+			(xy 120.65 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ac80ada-8c3f-484c-9af5-eee9bfc7661a")
+		(uuid "7df524c8-cad1-41ac-a0cf-d55b2f13d059")
 	)
 	(wire
 		(pts
@@ -3963,6 +3973,17 @@
 		)
 		(uuid "f3f3a5ad-00eb-45cd-91e5-7282d3509110")
 	)
+	(label "SCL"
+		(at 233.68 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01471d29-f1a8-4675-b8e6-c7e2e99c9bfe")
+	)
 	(label "RESET"
 		(at 237.49 110.49 180)
 		(fields_autoplaced yes)
@@ -3997,7 +4018,7 @@
 		(uuid "12db7d5d-8f65-464a-a74b-d29ee2cf361b")
 	)
 	(label "SCK"
-		(at 120.65 54.61 0)
+		(at 120.65 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4095,7 +4116,7 @@
 		)
 		(uuid "70dc5de4-440d-48a9-a34b-2df3bd678c3c")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 38.1 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4104,7 +4125,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "78d00dca-38c8-44b5-8bb7-4c43a1530117")
+		(uuid "7680f38a-77d8-4805-bfd4-6cd4d3d06b66")
 	)
 	(label "BVcc"
 		(at 71.12 110.49 270)
@@ -4194,6 +4215,17 @@
 		)
 		(uuid "8690879c-816f-4003-9071-a30ad533f345")
 	)
+	(label "SLC"
+		(at 38.1 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88260ed7-6035-401f-baf0-8d3eb87292b5")
+	)
 	(label "D3"
 		(at 163.83 52.07 180)
 		(fields_autoplaced yes)
@@ -4260,17 +4292,6 @@
 		)
 		(uuid "a244a26b-c0fc-4234-83e4-71c57148dc54")
 	)
-	(label "SCK"
-		(at 237.49 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5d21a22-228b-40ac-b13d-d946141846b7")
-	)
 	(label "D7"
 		(at 237.49 133.35 180)
 		(fields_autoplaced yes)
@@ -4293,7 +4314,7 @@
 		)
 		(uuid "aa76e80a-7f1f-4b49-830f-af428d0790e5")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 52.07 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4347,6 +4368,17 @@
 			(justify right bottom)
 		)
 		(uuid "c5d95d84-5cf5-47ed-be7d-af79238469d7")
+	)
+	(label "SCL"
+		(at 120.65 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3a72c63-d79b-419c-9cf7-105198be965c")
 	)
 	(label "SDA"
 		(at 52.07 121.92 180)
@@ -4414,7 +4446,7 @@
 		)
 		(uuid "e314e15e-2e94-4e34-b898-33ef194c6c39")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 86.36 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5553,7 +5585,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "49ba226b-50a7-4596-9aad-be079d461b71")
 		(property "Reference" "#PWR03"
 			(at 68.58 45.72 0)
@@ -5565,7 +5596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 44.45 0)
+			(at 68.58 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7267,7 @@
 			(uuid "9fc5b3cc-0a83-42ab-b734-b3283bccf17e")
 		)
 		(pin "SCK" passive
-			(at 125.73 54.61 180)
+			(at 125.73 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,6 +7395,16 @@
 				(justify left)
 			)
 			(uuid "13f3f777-dee8-4a9c-9818-d45eb805b331")
+		)
+		(pin "SCL" input
+			(at 125.73 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78c234c9-c180-4958-a597-4f1fb2f82c76")
 		)
 		(instances
 			(project "MCU Data Logger"
