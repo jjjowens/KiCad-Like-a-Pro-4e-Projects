@@ -155,7 +155,7 @@
 	(net 0 "")
 	(net 1 "/BVcc")
 	(net 2 "GND")
-	(net 3 "Net-(U4-AREF)")
+	(net 3 "/AREF")
 	(net 4 "Net-(U4-XTAL1{slash}PB6)")
 	(net 5 "Net-(U4-XTAL2{slash}PB7)")
 	(net 6 "Net-(D1-A)")
@@ -1776,7 +1776,7 @@
 			(size 1 1.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 3 "Net-(U4-AREF)")
+			(net 3 "/AREF")
 			(pintype "passive")
 			(uuid "6a28dd15-1b59-44f8-a6c2-a8faea79a7a2")
 		)
@@ -2151,9 +2151,10 @@
 				)
 			)
 		)
-		(property "Value" "LED2"
+		(property "Value" "LED"
 			(at 0 1.905 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "35e585fc-f306-4d91-9c7d-adca25cf2a41")
 			(effects
 				(font
@@ -2197,6 +2198,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value2" "LED2"
+			(at 0 1.911 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "70cc0b98-ef40-46fc-8030-88225c3c596c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2388,9 +2401,10 @@
 				)
 			)
 		)
-		(property "Value" "LED1"
+		(property "Value" "LED"
 			(at 0 -1.905 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c8146b1e-0284-41a4-a084-a1d8d4252643")
 			(effects
 				(font
@@ -2434,6 +2448,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value2" "LED1"
+			(at -0.225 -1.98 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c770c663-37de-46df-83d7-3f0950146f1f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2613,9 +2639,10 @@
 		(at 143.535 71.57 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
-		(property "Reference" "Battery"
+		(property "Reference" "BT1"
 			(at 0 -3.043 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dd3007c1-1d5d-4c49-b608-ebe36f457edd")
 			(effects
 				(font
@@ -2627,6 +2654,7 @@
 		(property "Value" "Battery"
 			(at 0 4.87 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "303df7e9-eab4-40cc-95e8-c7d1c1f904a0")
 			(effects
 				(font
@@ -2670,6 +2698,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value2" "Battery"
+			(at 0.12 -2.985 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d039203a-942f-411d-94e6-8d33175bdac3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6318,7 +6358,7 @@
 			(at 4.25 0.4 90)
 			(size 1.6 0.55)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 3 "Net-(U4-AREF)")
+			(net 3 "/AREF")
 			(pinfunction "AREF")
 			(pintype "passive")
 			(uuid "ff06638c-313d-4706-8aff-6a1e75dbfa9f")
