@@ -4292,6 +4292,17 @@
 		)
 		(uuid "a62fe30a-2385-4a7d-b159-06c143d89fb4")
 	)
+	(label "AREF"
+		(at 189.23 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7b16921-dc37-43f0-9503-5f6764d9be8f")
+	)
 	(label "MOSI"
 		(at 127 63.5 0)
 		(fields_autoplaced yes)
