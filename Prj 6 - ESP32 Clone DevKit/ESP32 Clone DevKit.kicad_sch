@@ -18,22 +18,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -15.0359 31.5945 0)
+			(property "Reference" "U3"
+				(at -13.843 31.877 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "ESP32-WROOM-32D"
-				(at -15.2867 -35.6681 0)
+				(at 5.969 -34.798 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" "#download:MODULE_ESP32-WROOM-32D"
@@ -62,6 +60,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Purpose" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "MF" "Espressif Systems"
@@ -186,8 +192,8 @@
 			)
 			(symbol "ESP32-WROOM-32D_0_0"
 				(rectangle
-					(start -15.24 -33.02)
-					(end 15.24 30.48)
+					(start -15.24 30.48)
+					(end 15.24 -33.02)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -782,223 +788,7 @@
 							)
 						)
 					)
-					(number "39_10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
 					(number "39_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -30.48 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "39_21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -8193,6 +7983,22 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field-1" ""
+			(at 213.36 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "27"
 			(uuid "94cfb1cd-632a-4620-a8d6-a47f4892e03c")
 		)
@@ -8238,17 +8044,8 @@
 		(pin "31"
 			(uuid "f5c79ad2-c19e-4200-9d88-2b337f4c55d3")
 		)
-		(pin "39_17"
-			(uuid "fce7f2ea-1ed9-4e56-bccb-f30b21743083")
-		)
-		(pin "39_13"
-			(uuid "5b7e5244-bdf9-4769-8608-b64aa5ff708a")
-		)
 		(pin "1"
 			(uuid "3e5fb353-60c3-423e-9acb-f89845765906")
-		)
-		(pin "39_18"
-			(uuid "68ea58aa-37f8-4658-a739-b953c319fe33")
 		)
 		(pin "19"
 			(uuid "55b4dabe-0668-4576-b575-f890a31e7f31")
@@ -8267,15 +8064,6 @@
 		)
 		(pin "29"
 			(uuid "82c2cd18-e882-4946-be58-d90cf2447c76")
-		)
-		(pin "39_14"
-			(uuid "0001abcb-cb66-4468-9e82-533960c5affb")
-		)
-		(pin "39_16"
-			(uuid "3da91b65-7849-4d08-8558-cc316c08c1ab")
-		)
-		(pin "39_19"
-			(uuid "b7373194-7fec-45c9-8b1c-b47356636561")
 		)
 		(pin "16"
 			(uuid "4976b027-89af-4200-a19c-b249cb938817")
@@ -8307,35 +8095,17 @@
 		(pin "26"
 			(uuid "2d116dac-d023-4ef3-bdef-d32456107f2b")
 		)
-		(pin "39_11"
-			(uuid "1ef7d71f-ab26-4e84-84cb-f410cb8303c7")
-		)
 		(pin "39_2"
 			(uuid "d70ddac2-8812-48bf-b74c-60f642ce60ea")
 		)
-		(pin "39_20"
-			(uuid "84c1e57d-2a3f-49fc-bc3f-1fee1eef3857")
-		)
 		(pin "24"
 			(uuid "c19b8d8a-7272-49d9-9533-488c5015ad6b")
-		)
-		(pin "39_21"
-			(uuid "e668b350-e6e0-49cb-9b1b-e7b2544d8ac6")
 		)
 		(pin "39_4"
 			(uuid "cd4069d8-89f3-4faa-b1db-350fa12e14c5")
 		)
 		(pin "39_9"
 			(uuid "6b1e0605-ee72-43d3-a2df-e521b13a6f0d")
-		)
-		(pin "39_12"
-			(uuid "bdd23ed7-21ca-4e4c-aa65-ae206bf64af3")
-		)
-		(pin "39_10"
-			(uuid "abd3bf76-1b80-465c-966a-519fbdbdea03")
-		)
-		(pin "39_15"
-			(uuid "4b4fdd62-1ec8-45cf-a7c9-0c5cc002db31")
 		)
 		(pin "34"
 			(uuid "f5d2da80-8491-48c8-a3b1-7918f3b0155b")
